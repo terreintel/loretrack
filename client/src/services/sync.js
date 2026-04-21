@@ -1,6 +1,6 @@
 import { getPendingRecordings, updateRecordingStatus } from './db.js';
 
-// In development, Vite proxies /api → http://localhost:3001
+// In development, Vite proxies /api → https://loretrack-production-22db.up.railway.app
 // In production (server serves client), /api is the same origin
 // Override with VITE_API_URL env var if hosting separately
 const API_BASE = import.meta.env.VITE_API_URL || '';
