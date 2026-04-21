@@ -130,7 +130,7 @@ export default function App() {
       <header className="app-header">
         <div className="header-brand">
           <span className="header-logo" aria-hidden="true">🌿</span>
-          <h1>LoreTrack</h1>
+          <h1>LoreTrack Wulgu</h1>
         </div>
         <button
           className="settings-btn"
@@ -177,7 +177,7 @@ export default function App() {
         {/* First-run prompt */}
         {isFirstRun && (
           <button className="setup-cta" onClick={() => setShowSettings(true)}>
-            Set up LoreTrack →
+            Set up LoreTrack Wulgu →
           </button>
         )}
 
